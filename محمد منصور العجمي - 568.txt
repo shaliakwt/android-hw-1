@@ -1,0 +1,29 @@
+public class Main
+{
+  public static void main (String[]args)
+  {
+    double grade = 99.99999999999; // ^_^ ضع درجتك هنا
+
+
+    if (grade <= 100.0 && grade >= 90.0) // from 100 to 90.0
+      {
+	System.out.println ("A");
+      }
+    else if (grade < 90.0 && grade >= 80.0) // from 89.9 to 80.0
+      {
+	System.out.println ("B");
+      }
+    else if (grade < 80.0 && grade >= 70.0) // from 79.9 to 70.0
+      {
+	System.out.println ("C");
+      }
+    else if (grade < 70.0 && grade >= 60.0) // from 69.9 to 60.0
+      {
+	System.out.println ("D");
+      }
+    else if (grade < 60.0) // below 60 :(
+      {
+	System.out.println ("F"); 
+      }
+  }
+}
